@@ -1,5 +1,6 @@
 # RafalWdowiakINF04_S1
 Program do obsługi pasażerów oraz dla operatora powietrznego
+
 Dla pasażera:
 1. Klient wchodzi i wyszukuje dostępne lotniska.
 2. Wybiera lotnisko i sprawdza siatkę połączeń z wybranego lotniska.
