@@ -16,5 +16,5 @@ Program oblicza cene biletu na podstawie odleglosci trasy pomiedzy wybranymi lot
 Dla operatora linii lotniczej:
 
 1. Operatror ma możliwość sprawdzenia i skierowania odpwiedniego typu samolotu na dany kurs
- na podstawie danych technicznych samolotu z uwzględnieniem odleglosci pomiedzy lotniskami,
- ilości paliwa w zbiornikach oraz dlugosci pasa startowego.
+ na podstawie danych technicznych samolotu z uwzględnieniem odleglosci pomiedzy lotniskami, zasięgu samolotu
+ oraz dlugosci pasa startowego.
