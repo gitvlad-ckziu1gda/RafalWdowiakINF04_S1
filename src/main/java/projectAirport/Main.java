@@ -23,7 +23,7 @@ public class Main<dist> {
         for (Airplane airplane: airplanes) {
             System.out.println(airplane);
         }
-// aaa
+
         Customer customer1 = new Customer(1,"Adam", "Kowalski", "000123", "Polish",
                 "Bucza","10", "XYZ","Warszawa", "Poland");
         Customer customer2 = new Customer(2,"Paweł", "Kalinowski", "000123", "Polish",
