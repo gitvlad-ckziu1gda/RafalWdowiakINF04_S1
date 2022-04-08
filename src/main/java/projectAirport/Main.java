@@ -35,20 +35,26 @@ public class Main<dist> {
         Customer customer5 = new Customer(5,"Juan", "Ammorros", "000123", "Spanish",
                 "Rossa","55", "AAA","Madrit", "Spain");
 
-        Airport airport1 = new Airport(1, "Walesa Airport", "GDN/EPGD", "Gdansk", "Poland", "Europe", 54.3775, 18.466111 );
-        Airport airport2 = new Airport(2,"Chopin Airport", "WAW/EPWA", "Warsaw", "Poland", "Europe", 52.165833, 20.967222);
-        Airport airport3 = new Airport(3, "Krakow Balice Airport", "KRK/EPKK", "Krakow", "Poland", "Europe", 50.077778, 19.784722);
+        Airport airport1 = new Airport(1, "Tokyo International Airport", "HND/RJTT", "Tokyo", "Japan", "Asia", 35.553333, 139.781111 );
+        Airport airport2 = new Airport(2,"Rio de Janeiro/Galeão International Airport", "GIG/SBGL", "Rio de Janeiro", "Brasil", "South America", -22.81, -43.250556);
+        Airport airport3 = new Airport(3, "John F. Kennedy International Airport", "JFK/KJFK", "New York", "USA", "North America", 40.639722, -73.778889);
         Airport airport4 = new Airport(4,"Katowice Airport", "KTW/EPKT", "Katowice", "Poland", "Europe", 50.474167, 19.08);
-        Airport airport5 = new Airport(5,"Poznan Lawica Airport", "POZ/EPPO", "Poznan", "Poland", "Europe", 52.421111, 16.826389);
+        Airport airport5 = new Airport(5,"Tehran International Airport", "IKA/OIIE", "Teheran", "Iran", "Asia", 35.416111, 51.152222);
 
-        AirportSpecification airportSpecification1 = new AirportSpecification(1, "Walesa Airport", "GDN/EPGD", "Gdansk", "Poland", "Europe",
-                54.3775, 18.466111, 2500, 50, 10, 100);
-
+        AirportSpecification airportSpecification1 = new AirportSpecification(1, "Tokyo International Airport", "HND/RJTT", "Tokyo", "Japan", "Asia",
+                54.3775, 18.466111, 3360, 50, 10, 100);
         AirportSpecification airportSpecification2 = new AirportSpecification(airport2.getId(), airport2.getName(), airport2.getCode(),
                 airport2.getCity(), airport2.getCountry(), airport2.getContinent(), airport2.getLatitude(), airport2.getLongitude(),
-                2000, 50, 30, 100);
-
-//        AirportSpecification airportSpecification3 = new AirportSpecification(airport3.);
+                4000, 50, 30, 100);
+        AirportSpecification airportSpecification3 = new AirportSpecification(airport3.getId(), airport3.getName(), airport3.getCode(),
+                airport3.getCity(), airport3.getCountry(), airport3.getContinent(), airport3.getLatitude(), airport3.getLongitude(),
+                4423, 100, 50,200);
+        AirportSpecification airportSpecification4 = new AirportSpecification(airport4.getId(), airport4.getName(), airport4.getCode(),
+                airport4.getCity(), airport4.getCountry(), airport4.getContinent(), airport4.getLatitude(), airport4.getLongitude(),
+                3200, 30, 20, 40);
+        AirportSpecification airportSpecification5 = new AirportSpecification(airport5.getId(), airport5.getName(), airport5.getCode(),
+                airport5.getCity(), airport5.getCountry(), airport5.getContinent(), airport5.getLatitude(), airport5.getLongitude(),
+                4249, 70, 50, 150);
 
 
         double dist1 = distance(airport1.getLatitude(), airport1.getLongitude(), airport2.getLatitude(), airport2.getLongitude());
